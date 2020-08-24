@@ -145,6 +145,7 @@ const showQrCode = async (
   data: BeaconEventType[BeaconEvent.P2P_LISTEN_FOR_CHANNEL_OPEN]
 ): Promise<void> => {
   const dataString = JSON.stringify(data)
+  console.log("wassup")
   console.log(dataString)
 
   const alertConfig: AlertConfig = {
